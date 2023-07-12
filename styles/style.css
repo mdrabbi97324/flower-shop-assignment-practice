@@ -9,9 +9,45 @@ body {
 }
 
 header {
-  background-color: rgba(229, 84, 115, 0.1);
+  background-color: rgba(229, 84, 115, 0.4);
   /* padding: 50px 160px 0px 100px; */
 }
+
+/* nav ber */
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px 20px 20px;
+  /* background-color: #272727; */
+}
+.logo a{
+  text-decoration: none;
+  color: #E55473;
+  font-size: 30px;
+  font-weight: 700;
+}
+.logo a span{
+  color: #FFFFFF;
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+.menu ul li a{
+  text-decoration:none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 15px 8px;
+  margin: 0 3px;
+  border-radius: 5px;
+}
+.menu ul li a:hover{
+  background-color: #E55473;
+}
+
+/* banner */
 
 .banner {
   padding: 50px 160px 0px 100px;
@@ -61,7 +97,7 @@ header {
     justify-content: center;
     gap: 5px;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 
@@ -156,7 +192,7 @@ header {
 .latest-deals{
  
   background-image: url(../flower_asset/Rectangle\ 9.png);
-  margin: 200px auto;
+  margin: 100px auto;
   padding: 100px 50px;
   background-size: cover;
   width: 880px;
